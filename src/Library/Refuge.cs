@@ -1,6 +1,6 @@
 using System;
 
-namespace proyect;
+namespace Proyect;
 
 public class Refuge
 {
