@@ -2,7 +2,7 @@ using System;
 
 namespace Proyect;
 
-public class Distance
+class Distance
 {
     public static double CalculateDistance(RefugeLocation refugeLocation, UserLocation userLocation)
     {

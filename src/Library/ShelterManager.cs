@@ -2,28 +2,25 @@ using System;
 
 namespace Proyect;
 
-public class ShelterManager
+public class ShelterManager:Person
 {
-    public void AddService(Service service)
+    public ShelterManager () : base(string name, int id, string address, int phoneNumber)
     {
-        // Lógica para agregar un servicio
+
     }
 
-    public void ModifyService(Service service)
-    {
-        // Lógica para modificar un servicio    
-    }
-
-    public void RemoveService(Service service)
-    {
-        // Lógica para eliminar un servicio
-    }
-
-    public void AddRefuge(Refuge refuge)
+    public void AddShelter(Shelter Shelter)
     {
         // Lógica para agregar un refugio
     }
 
-    public void ModifyRefuge(Refuge refuge)
+    public void RemoveShelter(Shelter Shelter)
     {
-        // Lógica para modificar un refugio   
+        // Lógica para remover un refugio
+    }
+
+    public void ModifyShelter(Shelter Shelter)
+    {
+        // Lógica para modificar un refugio
+    } 
+}

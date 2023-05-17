@@ -4,7 +4,12 @@ namespace Proyect;
 
 public class Service
 {
-    public string Name { get; set; }
+    public string ServiceName { get; set; }
+
+    public Service(string serviceName)
+    {
+        this.ServiceName = serviceName
+    }
 
     public void AddService()
     {

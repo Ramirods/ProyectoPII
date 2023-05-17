@@ -2,11 +2,22 @@ using System;
 
 namespace Proyect;
 
-public class QualifyRefuge
+public class QualifyShelter
 {
     private int Rating;
     private int TotalRatings;
     private double AverageRating;
+
+    public int Rating { get; set; }
+    public int TotalRatings { get; set; }
+    public double AverageRating { get; set; }
+
+    public QualifyShelter(int rating, int totalRatings, double averageRating)
+    {
+        this.Rating = rating
+        this.TotalRatings = totalRatings
+        this.AverageRating = averageRating
+    }
 
     public void AddRating(int rating)
     {

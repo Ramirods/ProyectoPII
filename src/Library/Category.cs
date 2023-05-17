@@ -5,19 +5,9 @@ namespace Proyect;
 public class Category
 {
     public string Name { get; set; }
-
-    public void AddCategory()
+    
+    public Category(string name)
     {
-        // Lógica para agregar una categoría
-    }
-
-    public void RemoveCategory()
-    {
-        // Lógica para eliminar una categoría
-    }
-
-    public void ModifyCategory()
-    {
-        // Lógica para modificar una categoría
+        this.Name = name;
     }
 }
