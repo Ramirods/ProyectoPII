@@ -10,8 +10,15 @@ public class QualifyRefuge
 
     public void AddRating(int rating)
     {
-        Rating += rating;
-        TotalRatings++;
+        if (rating<=5 && rating>=0)
+        {
+            Rating += rating;
+            TotalRatings++;
+        }
+        else
+        {
+            Console.WriteLine("Value is not valid, please insert a value between 0-5");
+        }
     }
 
     public double GenerateAverage()
